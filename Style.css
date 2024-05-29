@@ -1,0 +1,129 @@
+.body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+p {
+    font-size: 16px;
+    font-family: "outfit";
+    color: hsl(30, 10%, 34%);
+}
+
+.omelette {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 65%;
+    padding: 0px;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: "Young Serif";
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+    padding: 1%;
+    margin: 0%;
+}
+
+.purpletitle {
+    font-family: "Young Serif";
+    margin-left: 1.5%;
+}
+
+.prepli {
+    color: hsl(30, 10%, 34%);
+}
+
+.ingul {
+    color: hsl(30, 10%, 34%);
+}
+
+.intol {
+    color: hsl(30, 10%, 34%);
+    padding-bottom: 0.5%;
+}
+
+.main {
+    background-color: hsl(0, 0%, 100%);
+    padding: 4%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: 11%;
+    margin-right: 11%;
+    border-radius: 25px;
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+}
+
+li {
+    margin-bottom: 1%;
+    font-family: "outfit";
+    font-size: 16px;
+}
+
+.purpletitle {
+    color: hsl(332, 51%, 32%);
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+table, td {
+    border-spacing: 0;
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+}
+
+table:last-child {
+    border-bottom: none;
+}
+
+table {
+    width:100%
+}
+
+td {
+    padding-left: 5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.value {
+   color: hsl(14, 45%, 36%);
+   font-size: 16px;
+   font-family: "outfit";
+}
+
+.category {
+    color:  hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-family: "outfit";
+}
